@@ -1,4 +1,9 @@
 import 'bootstrap';
 import '../styles/main.scss';
+import planetcards from './components/planet-cards/planetcards';
 
-console.log('Space, the final fronteer.');
+const init = () => {
+  planetcards.planetNameCard();
+};
+
+init();
