@@ -1,19 +1,32 @@
-.planetCard {
-    border: 4px dotted white;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    margin: .5em;
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    font-weight: bolder;
-    text-shadow: black 5px 10px 8px;
+#planetContainer {
+    margin: 1em;
+    .planetCard {
+        border: 4px dotted white;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        margin: .5em;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        font-weight: bolder;
+        text-shadow: black 5px 10px 8px;
 
-    p {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
 }
