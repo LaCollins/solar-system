@@ -9,7 +9,6 @@ This site is a way to learn about the solar system. It displays the planets, the
 ![Second view of page](https://raw.githubusercontent.com/LaCollins/solar-system/master/screenshots/secondview.PNG)
 
 
-
 ## How to run
 * Clone down this project
 * Install [http-server](https://www.npmjs.com/package/http-server) from npm
