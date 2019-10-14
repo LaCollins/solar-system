@@ -4,6 +4,11 @@
 This site is a way to learn about the solar system. It displays the planets, their pictures, and information about them, as well as an option to search for various keywords.
 
 ## Screenshots
+![Main view of page](https://github.com/LaCollins/solar-system/raw/master/screenshots/mainview.PNG)
+![Search view of page](https://github.com/LaCollins/solar-system/raw/master/screenshots/searchview.PNG)
+![Second view of page](https://raw.githubusercontent.com/LaCollins/solar-system/master/screenshots/secondview.PNG)
+
+
 
 ## How to run
 * Clone down this project
