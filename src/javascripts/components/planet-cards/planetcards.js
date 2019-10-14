@@ -2,6 +2,7 @@ import $ from 'jquery';
 import utilities from '../../helpers/utilities';
 import planets from '../../helpers/data/planets';
 import './planetcards.scss';
+import planetInfoPage from '../planetInfoPage/planetInfoPage';
 
 const planetArray = planets.getPlanets();
 
@@ -30,5 +31,15 @@ const planetNameCard = () => {
   mouseOverEvent();
 };
 
+const closeInfo = () => {
+  $(document).click((e) => {
+    const clickTarget = e.target.dir;
+    if (clickTarget === 'x') {
+      planetNameCard();
+      planetInfoPage.selectPlanet();
+    }
+  });
+};
 
-export default { planetNameCard };
+
+export default { planetNameCard, closeInfo };

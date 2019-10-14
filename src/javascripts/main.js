@@ -1,11 +1,13 @@
 import 'bootstrap';
 import '../styles/main.scss';
 import planetcards from './components/planet-cards/planetcards';
-// import planetimages from './components/planet-images/planetimages';
+import planetInfoPage from './components/planetInfoPage/planetInfoPage';
+import closepage from './components/closepage/closepage';
 
 const init = () => {
   planetcards.planetNameCard();
-//   planetimages.mouseOverEvent();
+  planetInfoPage.selectPlanet();
+  closepage.closeInfo();
 };
 
 init();
