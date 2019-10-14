@@ -31,4 +31,4 @@ const planetNameCard = () => {
 };
 
 
-export default { planetNameCard };
+export default { planetNameCard, mouseOverEvent };
