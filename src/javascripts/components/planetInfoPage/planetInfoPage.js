@@ -2,7 +2,6 @@ import $ from 'jquery';
 import utilities from '../../helpers/utilities';
 import planets from '../../helpers/data/planets';
 import './planetInfoPage.scss';
-import closepage from '../closepage/closepage';
 
 const planetArray = planets.getPlanets();
 
@@ -26,7 +25,6 @@ const planetaryInfo = (selectedPlanet) => {
   }
   domString += '</div>';
   utilities.printToDom('planetContainer', domString);
-  closepage.closeInfo();
 };
 
 const selectPlanet = () => {
