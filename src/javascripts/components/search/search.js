@@ -17,7 +17,6 @@ const search = () => {
       const value = $('#myInput').val();
       $('.planetCard').hide();
       $(`.planetCard:contains("${value}")`).closest('.planetCard').show();
-      console.log(value);
     });
     if ($('#myInput').val() === 'Search..') {
       $('.planetCard').show();
